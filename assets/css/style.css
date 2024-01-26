@@ -191,7 +191,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     justify-content: center;
     position:relative;
     /*background:url(../images/about/welcome-banner.jpg)no-repeat;*/
-    background:url(../images/title/ai_banner.png)no-repeat;
+    background:url(../images/title/pattaya_city_banner.png)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -373,15 +373,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size: 16px;
     text-transform: capitalize;
 }
-
-.box {
-    width: 1000px; /* Adjust the width as needed */
-    height: 500px; /* Adjust the height as needed */
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-}
-
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
 
 .single-about-add-info li {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
@@ -640,12 +631,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.education-horizontal-timeline*/
 
 /*-------------------------------------
-        6.  committe
+        6.  Skills
 --------------------------------------*/
-
-.committte-content{
-    padding: 30px 0 30px;
+.skills {
+    
 }
+.skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 
 .committte .section-heading {
