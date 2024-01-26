@@ -1050,7 +1050,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* contact-adress */
 
 /*.contact-add-info */
-.contact-add-info { margin: 21px 0 52px;}
+.contact-add-info { margin: 15px 0 52px;}
 .single-contact-add-info h3 {
     color:  #636a82;
     font-weight:  500;
@@ -1058,7 +1058,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-contact-add-info p {
     color:  #999fb3;
     font-size:  16px;
-    margin-top:  18px;
+    margin-top:  2px;
 }
 .single-contact-add-info {
     margin-bottom:  26px;
