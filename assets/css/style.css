@@ -191,7 +191,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     justify-content: center;
     position:relative;
     /*background:url(../images/about/welcome-banner.jpg)no-repeat;*/
-    background:url(../images/title/ai_banner.png)no-repeat;
+    background:url(../images/title/pattaya_city_banner.png)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -357,15 +357,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size: 16px;
     text-transform: capitalize;
 }
-
-.box {
-    width: 1000px; /* Adjust the width as needed */
-    height: 500px; /* Adjust the height as needed */
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-}
-
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
 
 .single-about-add-info li {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
@@ -552,10 +543,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding: 40px 0;
 }
 
-.callpaper .section-heading h2 {
-    font-size: 20px;
-}
-
 /*.education-horizontal-timeline*/
 .callpaper-horizontal-timeline .col-sm-4 {padding:50px 5px;}
 
@@ -612,87 +599,79 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.education-horizontal-timeline*/
 
 /*-------------------------------------
-        6.  committe
+        6.  Skills
 --------------------------------------*/
-
-.committte-content{
-    padding: 30px 0 30px;
+.skills {
+    
 }
+.skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
-
-.committte .section-heading {
-    padding: 30px 0;
+.section-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5ebf2;
 }
 
-.committte .section-heading h1{
-    font-size: 20px;
-}
-
-.committte .committte-horizontal-timeline {
-    padding: 20px 0;
-}
-
-.committte .section-content-one {
-    gap: 40px;
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.committte .section-content-one .section-heading-eiei {
+.section-heading-eiei {
     font-size: 16px;
-    padding-bottom: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
-.committte .section-content-one .part-one{
-    text-align: center;
-    line-height: 30px;
-}
-
-.committte .section-content-one .part-one .header{
-    padding-bottom: 20px;
-}
-
-.committte .section-content-one .part-two{
-    gap: 40px;
+.single-progress-txt {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    line-height: 30px;
 }
-
-.committte .header p{
-    padding-bottom: 8px;
+.single-progress-txt h3 {
+    width: 10%;
+    color: #a606c3;
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+.barWrapper {
+    font-weight: 400;
     font-size: 16px;
-    font-weight: bold;
+    text-transform: uppercase;
 }
-
-.committte .header-program p{
-    padding-bottom: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
+.progress {
+    border-radius:3px;
+    overflow: visible;
+    background: #e6ecf3;
+    height:8px;
+    margin-top: 15px;
+    width: 85%;
+    margin-bottom: 37px;
 }
-
-.committte .section-content-two {
-    gap: 40px;
-    display: flex;
-    flex-direction: row;
-    line-height: 30px;
+.progress-bar {
+   background: #b636ff;
+    border-radius: 3px;
+   -webkit-transition: width 1.5s ease-in-out;
+   -ms-transition: width 1.5s ease-in-out;
+   -moz-transition: width 1.5s ease-in-out;
+   -o-transition: width 1.5s ease-in-out;
+   transition: width 1.5s ease-in-out;
 }
-
-.committte .section-content-three {
-    gap: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    line-height: 30px;
+.tooltip{
+   position:relative;
+   float:right;
 }
-
-.committte .section-content-three .section-heading-eiei {
-    font-size: 16px;
-    padding-bottom: 20px;
+.tooltip > .tooltip-inner {
+   background-color: transparent;
+   padding: 1px 5px;
+   color: #b636ff;
+   font-weight: 500;
+   font-size: 12px;
+   border-radius: 0;
+}
+.popOver + .tooltip > .tooltip-arrow {
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-top: 6px solid #fff;
+   bottom: -1px;
+   transform: translateX(-50%);
+   margin-left: 0;
 }
 
 /*-------------------------------------
