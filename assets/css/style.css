@@ -359,13 +359,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    font-weight: 300;
+    color: black;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
 .single-about-txt li {
     font-size: 16px;
-    color: #999fb3;
+    color: #6d717e;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
@@ -735,9 +736,26 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
+    background:  #f9fbfd;
     padding: 50px 0 100px;
-    border-top: 1px solid #e5ebf2;
 }
+
+.experience .section-heading {
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 30%;
+    border-bottom: solid 1px #b2c1ce;
+}
+
+.experience .section-heading h2{
+   font-size: 20px;
+}
+
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
 
@@ -955,11 +973,35 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         10. Clients
 --------------------------------------*/
-.clients {padding-top: 50px;}
+.clients {
+    padding-top: 50px;
+}
+.clients .section-heading h2 {
+    font-size: 20px;   
+}
+.clients .section-heading {
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 30%;
+    border-bottom: solid 1px #b2c1ce;
+}
 .clients-area {
     display: flex;
     align-items: center;
     height: 250px;
+}
+.clients .sponsored-section {
+    margin-right: 50px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .clients-area .item {padding: 0 25px;}
 
@@ -1050,7 +1092,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* contact-adress */
 
 /*.contact-add-info */
-.contact-add-info { margin: 21px 0 52px;}
+.contact-add-info { margin: 15px 0 52px;}
 .single-contact-add-info h3 {
     color:  #636a82;
     font-weight:  500;
@@ -1058,7 +1100,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-contact-add-info p {
     color:  #999fb3;
     font-size:  16px;
-    margin-top:  18px;
+    margin-top:  2px;
 }
 .single-contact-add-info {
     margin-bottom:  26px;
