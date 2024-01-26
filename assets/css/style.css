@@ -359,13 +359,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    font-weight: 300;
+    color: black;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
 .single-about-txt li {
     font-size: 16px;
-    color: #999fb3;
+    color: #6d717e;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
@@ -735,8 +736,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
+    background:  #f9fbfd;
     padding: 50px 0 100px;
-    border-top: 1px solid #e5ebf2;
 }
 
 .experience .section-heading {
@@ -972,7 +973,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         10. Clients
 --------------------------------------*/
-.clients {padding-top: 50px;}
+.clients {
+    padding-top: 50px;
+}
 .clients .section-heading h2 {
     font-size: 20px;   
 }
