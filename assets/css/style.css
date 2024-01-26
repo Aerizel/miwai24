@@ -333,16 +333,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding-top:  50px;
 }
 .education-horizontal-timeline {
-    padding: 80px 0;
+    padding: 40px 0;
+}
+
+.education .intro p {
+    font-size: 16px;
 }
 
 /*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
+.education-horizontal-timeline .col-sm-4 {padding:50px 2px;}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
+.single-horizontal-timeline p {color: #999fb3;max-width: 360px;}
+.single-horizontal-timeline a {color: rgb(56, 56, 197); font-size: 14px;}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
@@ -486,18 +491,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     left: -14.5%;
     z-index: 1;
 }
-.timeline-content h4.title {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-.timeline-content h5 {
-    color: #636a82;
-    font-size: 14px;
-    font-weight: 300;
-    margin: 18px 0 20px;
-}
-.main-timeline .description {
+.timeline-content li {
     font-size: 14px;
     color: #999fb3;
 }
