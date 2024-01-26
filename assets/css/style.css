@@ -471,6 +471,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*main-timeline*/
 .main-timeline{
     position: relative;
+    left: 55px;
 }
 .main-timeline:before{
     content: "";
