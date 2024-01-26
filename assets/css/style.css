@@ -738,6 +738,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
+
+.experience .section-heading {
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 30%;
+    border-bottom: solid 1px #b2c1ce;
+}
+
+.experience .section-heading h2{
+   font-size: 20px;
+}
+
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
 
@@ -956,10 +973,32 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         10. Clients
 --------------------------------------*/
 .clients {padding-top: 50px;}
+.clients .section-heading h2 {
+    font-size: 20px;   
+}
+.clients .section-heading {
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 30%;
+    border-bottom: solid 1px #b2c1ce;
+}
 .clients-area {
     display: flex;
     align-items: center;
     height: 250px;
+}
+.clients .sponsored-section {
+    margin-right: 50px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .clients-area .item {padding: 0 25px;}
 
