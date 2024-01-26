@@ -767,7 +767,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     align-items: center;
     border-right: 1px solid #b2c1ce;
     overflow:hidden;
-    -webkit-transition:background 0.5s linear; 
+    -webkit-transition:background 0.5s linear;
     -moz-transition:background 0.5s linear; 
     -ms-transition:background 0.5s linear; 
     -o-transition:background 0.5s linear; 
