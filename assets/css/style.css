@@ -325,35 +325,55 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-img */
 
 /*-------------------------------------
-        5.  Education
+        5.  Call For paper
 --------------------------------------*/
 
-.education {
+.callpaper {
     background:  #f9fbfd;
     padding-top:  50px;
 }
-.education-horizontal-timeline {
+.callpaper-horizontal-timeline {
     padding: 40px 0;
 }
 
-.education .intro p {
+/*.education-horizontal-timeline*/
+.callpaper-horizontal-timeline .col-sm-4 {padding:50px 5px;}
+
+.callpaper-horizontal-timeline .intro p {
     font-size: 16px;
 }
+.single-horizontal-timeline .experience-time {
+    text-align: center; 
+}
 
-/*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:50px 2px;}
+.single-horizontal-timeline .experience-time h2 {   
+    font-weight: bold;
+}
 
-.single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
-.single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
-.single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
+.single-horizontal-timeline .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.single-horizontal-timeline .submission p{
+    padding-bottom: 10px;
+}
 .single-horizontal-timeline p {color: #999fb3;max-width: 360px;}
-.single-horizontal-timeline a {color: rgb(56, 56, 197); font-size: 14px;}
+
+.single-horizontal-timeline a {
+    color: rgb(56, 56, 197); 
+    font-size: 14px;
+}
+
+.single-horizontal-timeline a:hover{
+    text-decoration-line: underline;
+}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
     display:  flex;
     align-items: center;
-    padding: 26px 0 30px;
+    padding: 15px 0 18px;
 }
 .timeline-horizontal-border i {
     font-size:  10px;
@@ -386,6 +406,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
 }
+
+.section-heading-eiei {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
 .single-progress-txt {
     display: flex;
 }
