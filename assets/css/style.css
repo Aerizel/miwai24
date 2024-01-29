@@ -191,7 +191,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     justify-content: center;
     position:relative;
     /*background:url(../images/about/welcome-banner.jpg)no-repeat;*/
-    background:url(../images/title/pattaya_city_banner.png)no-repeat;
+    background:url(../images/title/ai_banner.png)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -661,7 +661,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .committte .section-heading h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .committte .committte-horizontal-timeline {
@@ -755,7 +755,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .experience .section-heading h2{
-   font-size: 20px;
+   font-size: 25px;
 }
 
 .experience-content {padding-top: 100px;}
@@ -774,6 +774,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color: #636a82;
     margin-top: 14px;
     text-transform: uppercase;
+}
+.experience-time p {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    /* padding: 35px 0 43px; */
+    /* border-bottom: 1px solid #999fb3; */
 }
 /*experience-time*/
 
@@ -979,7 +986,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding-top: 50px;
 }
 .clients .section-heading h2 {
-    font-size: 20px;   
+    font-size: 25px;   
 }
 .clients .section-heading {
     margin: auto;
@@ -1080,8 +1087,25 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*--contct button--*/
 
 /* contact-adress */
+.contact .section-heading h2 {
+    font-size: 25px;   
+}
+.contact .section-heading {
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 30%;
+    border-bottom: solid 1px #b2c1ce;
+}
+
 .contact-add-head h3 {
-    font-size:  24px;
+    /* font-size:  24px; */
+    font-size:  20px;
+    font-weight: 800;
     color:  #3c4258;
 }
 .contact-add-head p {
@@ -1094,8 +1118,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* contact-adress */
 
 /*.contact-add-info */
-.contact-add-info { margin: 15px 0 52px;}
+.contact-add-info { margin: 25px 0 52px;}
 .single-contact-add-info h3 {
+    font-size:  18px;
     color:  #636a82;
     font-weight:  500;
 }
