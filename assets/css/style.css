@@ -451,6 +451,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .experience-time {
     position: relative;
 }
+
 .experience-time h2 {
     font-weight: 400;
 }
@@ -514,6 +515,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     float: right;
     text-align: left;
 }
+
 .timeline-single-before:before {
     content: '';
     top: 57px;
