@@ -758,7 +758,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
    font-size: 25px;
 }
 
-.experience-content {padding-top: 100px;}
+/* .experience-content {padding-top: 100px;} */
+.experience-content {padding-top: 50px;}
 .single-timeline-box {margin-bottom: 75px;}
 
 /*experience-time*/
@@ -1028,7 +1029,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #f9fbfd;
     padding: 50px 0 100px;
 }
-.single-contact-box {padding-top: 100px;}
+/* .single-contact-box {padding-top: 100px;} */
+.single-contact-box {padding-top: 50px;}
 .contact-form  .form-group {
     margin-bottom: 20px;
     
